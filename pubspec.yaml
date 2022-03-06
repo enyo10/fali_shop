@@ -1,0 +1,110 @@
+name: fali_shop
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+#  flutter_svg: ^0.20.0-nullsafety.3
+  flutter_svg: ^0.22.0
+  firebase_core: ^1.0.3
+  cloud_firestore: ^2.1.0
+  firebase_storage: ^8.0.3
+  firebase_auth: ^1.1.1
+  splashscreen: ^1.3.5
+  flutter_signin_button: ^2.0.0
+  provider: ^5.0.0
+
+  camera: ^0.8.1
+  path_provider: ^2.0.1
+  path: ^1.8.0
+  image_picker: ^0.7.4
+  flutter_launcher_icons: ^0.9.0
+  google_fonts: ^2.0.0
+  photo_view: ^0.11.1
+  cached_network_image: ^3.0.0
+  permission_handler: ^7.1.0
+  adaptive_dialog: ^1.2.0
+
+flutter_icons:
+  image_path: "assets/icons/fali_shop_1.png"
+  android: true
+#  android: "launcher_icon"
+  ios: true
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - android/app/src/main/res/drawable/
+    - android/app/src/main/res/drawable-v21/
+    - android/app/src/main/res/mipmap-xxxhdpi/
+    - android/app/src/main/res/values/
+    - android/app/src/main/res/values-night/
+    - android/app/src/main/res/
+    - android/app/src/main/res/mipmap-mdpi/
+    - android/app/src/main/res/mipmap-hdpi/
+    - android/app/src/main/res/mipmap-xhdpi/
+    - android/app/src/main/res/mipmap-xxhdpi/
+
+
+  fonts:
+    - family: Charmonman
+      fonts:
+        - asset: fonts/Charmonman-Bold.ttf
+        - asset: fonts/Charmonman-Regular.ttf
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

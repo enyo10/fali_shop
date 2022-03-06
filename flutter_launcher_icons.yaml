@@ -1,0 +1,5 @@
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/fali_shop_1.png"
